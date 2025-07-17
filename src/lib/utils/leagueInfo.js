@@ -13,7 +13,6 @@ export const homepageText = `
   to deliver unrivalved drama to its members and their families that HBO executives could simply only dream of.</p>
   <p>As most of the league's members are part-time degenerate sports bettors, the victor's
   cash prize is lucrative indeed. However, the glory of hoisting the sacred Rajvi and relishing in her eternal beauty is a prize that transcends the social construct of monetary value.</p>
-  <p>    </p>
   <pLong May She Reign.</p>
 `;
 
