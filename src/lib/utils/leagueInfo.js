@@ -8,8 +8,12 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Twelve Guys... One Rajvi.</p>
-  <p>est. 2014<p>
+  <p>Established in 2014, Twelve Guys One Rajvi has become a household name spanning across multiple timezones. From keepers to controversy, the league continues</p>
+  <p>to deliver an unrivaled range of emotions to its members and their families. As most of the league's members are part-time degenerate sports bettors, the victor's</p>
+  <p>cash prize is lucrative indeed. However, the glory of hoisting the sacred Rajvi and relishing in her eternal beauty is a prize that transcends the social construct</p>
+  <p>of monetary value.</p>
+  <p> </p>
+  <pLong May She Reign.</p>
 `;
 
 /*   STEP 3   */
