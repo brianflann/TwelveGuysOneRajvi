@@ -8,7 +8,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Conceived out of fire and brimstone, a league that would go on to alter the trajectory of mankind was born...</p>
+  <p>Forged from fire and brimstone, a league that would go on to alter the trajectory of mankind was born...</p>
   <p>Established in 2014, Twelve Guys One Rajvi has become a household name spanning across multiple timezones and generations. From keepers to controversy, the league has continued its commitment
   to deliver unrivalved drama to its members and their families that HBO executives could simply only dream of.</p>
   <p>As most of the league's members are part-time degenerate sports bettors, the victor's
@@ -64,7 +64,7 @@ export const managers = [
        "rival": {
          name: "Nick Ruggieri", // Can be anything (usually your rival's name)
          link: "3987102841658613", // manager array number within this array, or null to link back to all managers page
-         image: "/managers/Ruggieri.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/Ruggieri.jpeg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 175, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
