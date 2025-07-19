@@ -148,8 +148,8 @@ export const managers = [
        "name": "Chucky Karr",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Conshohocken, PA", // (optional)
-       "bio": "Dynasty league champion
-              "Arrowhead Cir street hockey legend
+       "bio": "Dynasty league champion"
+              "Arrowhead Cir street hockey legend"
               "Rajvi hopeful",
        "photo": "/managers/Karr.jpeg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
