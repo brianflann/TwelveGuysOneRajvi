@@ -96,7 +96,7 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">TWELVE GUYS, ONE RAJVI BY-LAWS</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
@@ -165,22 +165,22 @@
     
     <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>1 IR Spots (Player must be labeled as IR or Covid in the Sleeper App)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
-        <div class="subBlock">
-            <table class="positionMaximums">
-                <tbody>
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
-                </tbody>
-            </table>
-        </div>
+        \\<div class="subBlock">
+            \\<table class="positionMaximums">
+                \\<tbody>
+                \\<tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
+                \\<tr><td>RB</td><td class="right">20</td></tr>
+                \\<tr><td>WR</td><td class="right">20</td></tr>
+                \\<tr><td>TE</td><td class="right">10</td></tr>
+                \\<tr><td>D/ST</td><td class="right">3</td></tr>
+                \\<tr><td>K</td><td class="right">3</td></tr>
+                \\</tbody>
+            \\</table>
+        \\</div>
 
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
