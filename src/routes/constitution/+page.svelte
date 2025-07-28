@@ -162,6 +162,10 @@
     <p>7 Bench</p>
 
     <p>1 IR Spots (Player must be labeled as IR or Covid in the Sleeper App)</p>
+    <ul>
+        <li>Once IR is activated, a player cut must be made prior to Thursday games. Any team in violation of this policy will receive an Automatic Loss for the week.</li>
+        <li>Eligible drafted players may be immediately placed on the IR once the draft is finalized.</li>
+    </ul>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
@@ -298,12 +302,12 @@
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league groupchat, trade offers, and the waiver wire, is strongly encouraged but generally not grounds for removal.</p>
     
     <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who have an extensive fantasy football background, are eager to compete at the highest level and will be very active within the league.</p>
+    <p>When a manager needs to be replaced, the commisiooner will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who have an extensive fantasy football background, are eager to compete at the highest level and will be very active within the league.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through Venmo. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at {dues}$. Dues are collected through Venmo. All managers must be fully paid up before the start of regular season.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
@@ -311,9 +315,9 @@
         <li>1st place: {dues * 10}$</li>
         <li>Regular Season Winner: {dues * 2}$</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
+    <p>The lowest point scorer of each week in the regular season is subject to a financial penalty that will be decided at a future date*</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <p>A ⅔ majority vote is required in order to raise league dues.</p>
 
 </div>
