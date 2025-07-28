@@ -246,8 +246,16 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
-    
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical 1 PPR Scoring).</p>
+    <p>Passing</p>
+    <ul>
+        <li>.05 per yard (20 yards per point)<\li>
+        <li>5 points per TD<\li>
+        <li>2 points per 2-point conversion<\li>
+        <li>-1 point per INT<\li>
+        <li>2 points per 40+ yard passing TD bonus<\li>
+    </ul>
+    <p>The scoring system will never change without a majority league vote.</p>
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
