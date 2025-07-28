@@ -149,7 +149,7 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>15 Total Players</p>
     
     <p class="underscore">Starters</p>
     <ul>
@@ -163,7 +163,7 @@
         <li>FLEX (RB/WR)</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>7 Bench</p>
 
     <p>1 IR Spots (Player must be labeled as IR or Covid in the Sleeper App)</p>
     
@@ -172,12 +172,10 @@
         <div class="subBlock">
             <table class="positionMaximums">
                 <tbody>
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
+                <tr><td>QB</td><td class="right">n/a</td></tr>
+                <tr><td>RB</td><td class="right">n/a</td></tr>
+                <tr><td>WR</td><td class="right">n/a</td></tr>
+                <tr><td>TE</td><td class="right">n/a</td></tr>
                 </tbody>
             </table>
         </div>
