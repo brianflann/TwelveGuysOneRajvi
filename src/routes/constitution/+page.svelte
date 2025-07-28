@@ -230,7 +230,8 @@
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>The draft order will be determined on how many home runs each manager's designated MLB player mashes from May to July, 2025.</p>
-    <p>The draft will be held in-peron at an agreed upon location and is a 15 round snaking format.</p>
+    <p>15 round snaking format.</p>
+    <p>The draft will be held in-peron at an agreed upon location, with the previous regular season loser purchasing the draft board and drafting while doing Edward 40 hands.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
