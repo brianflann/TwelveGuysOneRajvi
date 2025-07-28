@@ -260,16 +260,16 @@
 
     <ul>
         <li>1 point per reception</li>
-        <li>.1 point per receiving yard (1 point per 10 yards)</li>
+        <li>0.1 point per receiving yard (1 point per 10 yards)</li>
         <li>6 points per TD</li>
         <li>2 points per 2-point conversion</li>
         <li>2 points per 40+ yard receiving TD bonus</li>
-        <li>.5 point per TE reception bonus</li>
+        <li>0.5 point per TE reception bonus</li>
     </ul>
      <p>Rushing:</p>
 
     <ul>
-        <li>.1 point per rushing yard (1 point per 10 yards)</li>
+        <li>0.1 point per rushing yard (1 point per 10 yards)</li>
         <li>6 points per TD</li>
         <li>2 points per 2-point conversion</li>
         <li>2 points per 40+ yard rushing TD bonus</li>
