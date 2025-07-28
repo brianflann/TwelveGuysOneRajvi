@@ -232,7 +232,8 @@
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <p>The draft order will be determined on how many home runs each manager's designated MLB player mashes from May to July, 20205.</p>
+    <p>The draft will be held in-peron at an agreed upon location and is a 15 round snaking style format.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
