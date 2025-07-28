@@ -180,7 +180,7 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets are limited players only. FAAB $ may not be traded.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
@@ -211,7 +211,7 @@
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
+        <p>For the most part, trades will stand as-is. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. Justin Jefferson for a 3rd string TE). A total of 7 veto votes are required to veto a trade. Not liking a trade does not warrant a veto.</p>
     </div>
     
     
