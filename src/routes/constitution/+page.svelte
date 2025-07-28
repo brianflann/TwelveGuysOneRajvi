@@ -276,13 +276,13 @@
     </ul>
     <p>Miscellaneous:</p>
 
-    <u>
+    <ul>
         <li>-2 points per lost fumble</li>
         <li>6 points per fumble recovery TD</li>
         <li>6 points per special teams player TD</li>
         <li>1 point per 200+ receiving yard game BONUS</li>
         <li>1 point per 200+ rushing yard game BONUS</li>
-    </u>
+    </ul>
 
     <p>The scoring system will never change without a majority league vote.</p>
 
