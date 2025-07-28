@@ -247,14 +247,32 @@
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
     <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical 1 PPR Scoring).</p>
-    <p>Passing</p>
+    <p>Passing:</p>
 
     <ul>
-        <li>.05 per yard (20 yards per point)</li>
+        <li>.05 point per yard (20 yards per point)</li>
         <li>5 points per TD</li>
         <li>2 points per 2-point conversion</li>
-        <li>-1 point per INT</li>
         <li>2 points per 40+ yard passing TD bonus</li>
+        <li>-1 point per INT</li>
+    </ul>
+     <p>Receiving:</p>
+
+    <ul>
+        <li>1 point per reception</li>
+        <li>.1 point per receiving yard (1 point per 10 yards)</li>
+        <li>6 points per TD</li>
+        <li>2 points per 2-point conversion</li>
+        <li>2 points per 40+ yard receiving TD bonus</li>
+        <li>.5 point per TE reception bonus</li>
+    </ul>
+     <p>Rushing:</p>
+
+    <ul>
+        <li>.1 point per rushing yard (1 point per 10 yards)</li>
+        <li>6 points per TD</li>
+        <li>2 points per 2-point conversion</li>
+        <li>2 points per 40+ yard rushing TD bonus</li>
     </ul>
 
     <p>The scoring system will never change without a majority league vote.</p>
