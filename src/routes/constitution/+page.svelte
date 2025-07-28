@@ -116,7 +116,8 @@
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Scoring System</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeTwo)}>3.2 Head to Head Tiebreaker</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
     
@@ -275,6 +276,8 @@
     </ul>
 
     <p>The scoring system will never change without a majority league vote.</p>
+    <h3 bind:this={threeTwo}>3.2 Head to Head Tiebreaker</h3>
+    <p>In the rare event of an exact tie in a head to head match, the tiebreaker will be decided by bench point total.</p>
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
