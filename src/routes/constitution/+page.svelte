@@ -209,7 +209,7 @@
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+        <p>The trade deadline is week 11 of the NFL season.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
@@ -226,10 +226,10 @@
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays.</p>
 
-    <p>FAAB budgets will reset each season in January.</p>
-    
+    <p>All waiver claims are final. Double check your bids.</p>
+    <p>Teams CANNOT add players once eliminated from the playoffs.</p>
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
