@@ -160,7 +160,7 @@
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
+        <li>FLEX (RB/WR/TE)</li>
     </ul>
     
     <p>7 Bench</p>
