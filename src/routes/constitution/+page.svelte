@@ -253,7 +253,7 @@
         <li>.05 point per yard (20 yards per point)</li>
         <li>5 points per TD</li>
         <li>2 points per 2-point conversion</li>
-        <li>2 points per 40+ yard passing TD bonus</li>
+        <li>2 points per 40+ yard passing TD BONUS</li>
         <li>-1 point per INT</li>
     </ul>
      <p>Receiving:</p>
@@ -264,7 +264,7 @@
         <li>6 points per TD</li>
         <li>2 points per 2-point conversion</li>
         <li>2 points per 40+ yard receiving TD bonus</li>
-        <li>0.5 point per TE reception bonus</li>
+        <li>0.5 point per TE reception BONUS</li>
     </ul>
      <p>Rushing:</p>
 
@@ -272,8 +272,17 @@
         <li>0.1 point per rushing yard (1 point per 10 yards)</li>
         <li>6 points per TD</li>
         <li>2 points per 2-point conversion</li>
-        <li>2 points per 40+ yard rushing TD bonus</li>
+        <li>2 points per 40+ yard rushing TD BONUS</li>
     </ul>
+    <p>Miscellaneous:</p>
+
+    <u>
+        <li>-2 points per lost fumble</li>
+        <li>6 points per fumble recovery TD</li>
+        <li>6 points per special teams player TD</li>
+        <li>1 point per 200+ receiving yard game BONUS</li>
+        <li>1 point per 200+ rushing yard game BONUS</li>
+    </u>
 
     <p>The scoring system will never change without a majority league vote.</p>
 
