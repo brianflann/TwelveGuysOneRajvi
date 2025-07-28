@@ -172,10 +172,10 @@
         <div class="subBlock">
             <table class="positionMaximums">
                 <tbody>
-                <tr><td>QB</td><td class="right">n/a</td></tr>
-                <tr><td>RB</td><td class="right">n/a</td></tr>
-                <tr><td>WR</td><td class="right">n/a</td></tr>
-                <tr><td>TE</td><td class="right">n/a</td></tr>
+                <tr><td>QB</td><td class="right">∞</td></tr>
+                <tr><td>RB</td><td class="right">∞</td></tr>
+                <tr><td>WR</td><td class="right">∞</td></tr>
+                <tr><td>TE</td><td class="right">∞</td></tr>
                 </tbody>
             </table>
         </div>
