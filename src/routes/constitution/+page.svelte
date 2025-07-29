@@ -147,7 +147,7 @@
     <h2 class="sectionHeading" bind:this={zero}>*New for the 2025 Season*</h2>
     <p> The below updates have received a majority vote from league members. They have been appended to the By-laws, and are effective starting this season.</p>
     <ul>
-        <li>Trade deadline is Week 11 of the regular season</li>
+        <li>Trade deadline is <i>Week 11</i> of the regular season</li>
         <li>Head to head tiebreakers are decided by bench point totals</li>
         <li>There will be no keepers this season or the next (2025 & 2026)</li>
         <li>There will be a small penalty for the weekly lowest point scorer... the penalty is still to be decided.</li>
