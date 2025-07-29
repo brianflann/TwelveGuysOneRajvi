@@ -105,9 +105,9 @@
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>1.2 Trading</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoThree)}>1.2.2 Trade Deadline</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFour)}>1.2.3 Trade Restrictions</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFive)}>1.2.4 Veto/Trade Process</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
@@ -205,17 +205,17 @@
         <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and assess the thinking/reasoning of any team involved in a heavily lop-sided trade. </p>
     </div>
     
-    <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
+    <h4 bind:this={oneTwoThree}>1.2.2 Trade Deadline</h4>
     <div class="subBlock">
         <p>The trade deadline is week 11 of the NFL season.</p>
     </div>
     
-    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
+    <h4 bind:this={oneTwoFour}>1.2.3 Trade Restrictions</h4>
     <div class="subBlock">
         <p>Trading FAAB $ is not allowed.</p>
     </div>
     
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
+    <h4 bind:this={oneTwoFive}>1.2.4 Veto/Trade Process</h4>
     <div class="subBlock">
         <p>For the most part, trades will stand as-is. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. Justin Jefferson for a 3rd string TE). A total of 7 veto votes are required to veto a trade. Not liking a trade does not warrant a veto.</p>
     </div>
