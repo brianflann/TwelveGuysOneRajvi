@@ -113,6 +113,8 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Draft Format</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Draft Misc.</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
@@ -231,7 +233,9 @@
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>The draft order will be determined on how many home runs each manager's designated MLB player mashes from May to July, 2025.</p>
+    <h3 bind:this={twoTwo}>2.2 Draft Format</h3>  
     <p>15 round snaking format.</p>
+    <h3 bind:this={twoThree}>2.3 Draft Misc.</h3>
     <p>The draft will be held in-peron at an agreed upon location, with the previous regular season loser purchasing the draft board and drafting while doing Edward 40 hands.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
