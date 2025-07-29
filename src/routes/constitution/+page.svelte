@@ -145,6 +145,7 @@
     
     <hr />
     <h2 class="sectionHeading" bind:this={zero}>*New for the 2025 Season*</h2>
+    <p> The below updates have received a majority vote from league members. They have been appended to the By-laws, and are effective starting this season.</p>
     <ul>
         <li>Trade deadline is Week 11 of the regular season</li>
         <li>Head to head tiebreakers are decided by bench point totals</li>
