@@ -194,7 +194,7 @@ export const managers = [
        "name": "Dean Kenniff",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Norristown, PA", // (optional)
-       "bio": trimStart("\“The Eternal Sixth Seed:<i>A Norristown Fantasy Saga</i>\" <p>In the gritty heart of Norristown, PA, where football dreams are born in diners and decided in living rooms, one team lives perpetually on the edge — not of greatness, but of playoff mediocrity.</p><p>They call him The Sixth Seed — every year, without fail, he claws his way into the postseason with just enough fire to burn, but never enough to blaze. It’s not luck, it’s a lifestyle. His team rides the fine line between brilliance and breakdown, chaos and consistency. And it’s all by design.</p>"),
+       "bio": "\“The Eternal Sixth Seed:<i>A Norristown Fantasy Saga</i>\" <p>In the gritty heart of Norristown, PA, where football dreams are born in diners and decided in living rooms, one team lives perpetually on the edge — not of greatness, but of playoff mediocrity.</p><p>They call him The Sixth Seed — every year, without fail, he claws his way into the postseason with just enough fire to burn, but never enough to blaze. It’s not luck, it’s a lifestyle. His team rides the fine line between brilliance and breakdown, chaos and consistency. And it’s all by design.</p>",
        "photo": "/managers/Kenniff.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
