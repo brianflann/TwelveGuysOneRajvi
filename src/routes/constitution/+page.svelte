@@ -1,5 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
+    let zero;
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne, threeTwo;
@@ -99,7 +100,7 @@
     <h1 class="noUnderscore">TWELVE GUYS, ONE RAJVI BY-LAWS</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
-    
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>New for the 2025 Season</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
@@ -143,7 +144,7 @@
     
     
     <hr />
-    
+    <h2 class="sectionHeading" bind:this={zero}>New for the 2025 Season</h2>
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
@@ -287,6 +288,7 @@
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
     <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top 2 teams of the regular season will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p> The playoff brackets will NOT reseed.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
