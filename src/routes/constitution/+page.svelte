@@ -100,7 +100,7 @@
     <h1 class="noUnderscore">TWELVE GUYS, ONE RAJVI BY-LAWS</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>New for the 2025 Season</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>*New for the 2025 Season*</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
@@ -144,7 +144,7 @@
     
     
     <hr />
-    <h2 class="sectionHeading" bind:this={zero}>New for the 2025 Season</h2>
+    <h2 class="sectionHeading" bind:this={zero}>*New for the 2025 Season*</h2>
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
