@@ -101,13 +101,6 @@
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>*New for the 2025 Season*</h3>
-    <p> The below updates have received a majority vote from league members. They have been appended to the By-laws, and are effective starting this season.</p>
-    <ul>
-        <li>Trade deadline is Week 11 of the regular season</li>
-        <li>Head to head tiebreakers are decided by bench point totals</li>
-        <li>There will be no keepers this season or the next (2025 & 2026)</li>
-        <li>There will be a small penalty for the weekly lowest point scorer... the penalty is still to be decided.</li>
-    </ul>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
@@ -152,6 +145,12 @@
     
     <hr />
     <h2 class="sectionHeading" bind:this={zero}>*New for the 2025 Season*</h2>
+    <ul>
+        <li>Trade deadline is Week 11 of the regular season</li>
+        <li>Head to head tiebreakers are decided by bench point totals</li>
+        <li>There will be no keepers this season or the next (2025 & 2026)</li>
+        <li>There will be a small penalty for the weekly lowest point scorer... the penalty is still to be decided.</li>
+    </ul>
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
