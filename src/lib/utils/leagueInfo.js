@@ -8,7 +8,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Forged from fire and brimstone, a league that would go on to alter the trajectory of mankind was born...</p>
+  <p><i>Forged from fire and brimstone, a league that would go on to alter the trajectory of mankind was born...</i></p>
   <p>Established in 2014, Twelve Guys One Rajvi has become a household name spanning across multiple timezones and generations. From keepers to controversy, the league has continued its commitment
   to deliver unrivalved drama to its members and their families that HBO executives could simply only dream of.</p>
   <p>As most of the league's members are part-time degenerate sports bettors, the victor's
