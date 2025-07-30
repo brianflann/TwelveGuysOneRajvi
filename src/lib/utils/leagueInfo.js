@@ -170,8 +170,8 @@ export const managers = [
        "managerID": "399301755705286656",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Nick Keefer",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "PA", // (optional)
-       "bio": "<b>Dr. Nick Keefer - Back-to-Back Legend</b>",
+       "location": "Pittston, PA", // (optional)
+       "bio": "<b>Dr. Nick Keefer - Back-to-Back Legend</b><p></p>Podiatrist by day, fantasy football surgeon by night, Nick hails from the dual-crowned <i>Pizza Capital</i> and <i>Tomato Capital</i> of the world—Pittston, PA. While others slice pies, he slices through fantasy defenses with surgical finesse (except at RB2, which is usually in critical condition).<p></p>A married father of three, Nick proudly holds the title of the <b>only back-to-back Rajvi Champion</b> in league history—still the league’s gold standard of glory. There’s a running joke in the Rajvi that new fatherhood gives you fantasy superpowers… and while his youngest is out of diapers, his <i>dad magic</i> still burns strong.<p></p>Known for his \“Hero RB\” draft strategy, Nick boldly ignores early RB2s like he ignores lousy trade offers. He lets QBs simmer ‘til the late rounds and hoards wide receivers like toppings on a pizza.<p></p>Though distance keeps him from most of the Rajvi crew, he still makes the annual pilgrimage to the in-person draft—where he graces the league with his presence and reminds everyone who the true Hopeful of Hopefuls once was (and might be again).<p></p>He’s got kids, credentials, and championships — and still finds time to fleece you in round 12.<p></p>Outnumbered at home, but never outdrafted.",
        "photo": "/managers/Keefer.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -184,7 +184,7 @@ export const managers = [
        "favoritePlayer": 7569, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "team philosophy goes here", // (optional)
+       "philosophy": "<p></p><i>I draft with patience, trade with hesitation, and trust that fatherhood still fuels fantasy greatness. The bench wins battles—my history wins wars.</i>", // (optional)
        "tradingScale": 6, // 1 - 10 (optional)
        "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
