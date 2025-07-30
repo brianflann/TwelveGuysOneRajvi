@@ -286,7 +286,7 @@ export const managers = [
        "name": "Steven Tribanas",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Hamhung", // (optional)
-       "bio": "<p></p><center><p>2021 Champion.</p></center><p></p><center><p>Drafts clean, trades unseen.</p></center>",
+       "bio": "<p></p>2021 Champion.<p></p>Drafts clean, trades unseen.",
        "photo": "/managers/Tribanas.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -299,7 +299,7 @@ export const managers = [
        "favoritePlayer": 5580, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "Fantasy leagues are won in the trenches.", // (optional)
+       "philosophy": "<p></p>Fantasy leagues are won in the trenches.", // (optional)
        "tradingScale": 1, // 1 - 10 (optional)
        "preferredContact": "Discord",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
