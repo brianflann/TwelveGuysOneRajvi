@@ -57,9 +57,9 @@ export const managers = [
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "in your head, rent free", // (optional)
        "bio": "Raj's first.",
-       "photo": "/managers/nfl.png", // square ratio recommended (no larger than 500x500)
+       "photo": "/managers/Flannery.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-       "photo": "/managers/NFL.png", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       //"favoriteTeam": "/managers/NFL.png", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Nick Ruggieri", // Can be anything (usually your rival's name)
