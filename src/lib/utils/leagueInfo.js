@@ -286,7 +286,7 @@ export const managers = [
        "name": "Steven Tribanas",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Hamhung", // (optional)
-       "bio": "<p></p><center>2021 Champion. Drafts clean, trades unseen.</center>",
+       "bio": "<p></p><center>2021 Champion.</center><center>Drafts clean, trades unseen.</center>",
        "photo": "/managers/Tribanas.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
