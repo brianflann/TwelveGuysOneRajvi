@@ -125,7 +125,7 @@ export const managers = [
        "name": "Mark Grassie",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Philly", // (optional)
-       "bio": "<p></p><center>A man? Sure. A champion? Absolutely. A freight train from hell sent to destroy your fantasy football dreams? You bet your sweet ass.</center>",
+       "bio": "<p></p>A man? Sure. A champion? Absolutely. A freight train from hell sent to destroy your fantasy football dreams? You bet your sweet ass.",
        "photo": "/managers/Grassie.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -138,7 +138,7 @@ export const managers = [
        "favoritePlayer": 344, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "<p></p><center>Tom Brady once wrote \“Pliable muscles are long, soft, and capable of full muscle pump function.\” And we, at MTHD, live by that.</center>", // (optional)
+       "philosophy": "<p></p>Tom Brady once wrote \“Pliable muscles are long, soft, and capable of full muscle pump function.\” And we, at MTHD, live by that.", // (optional)
        "tradingScale": 6, // 1 - 10 (optional)
        "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
@@ -148,7 +148,7 @@ export const managers = [
        "name": "Chucky Karr",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Conshohocken, PA", // (optional)
-       "bio": "<p>Dynasty league champion</p> <p>Arrowhead Cir street hockey legend</p> <p>Rajvi hopeful</p>",
+       "bio": "<center><p></p>Dynasty league champion.</center><center><p></p>Arrowhead Cir street hockey legend.</center><center><p></p>Rajvi hopeful.</center>",
        "photo": "/managers/Karr.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -161,7 +161,7 @@ export const managers = [
        "favoritePlayer": 4881, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "Score lots, win little.", // (optional)
+       "philosophy": "<center><p></p>Score lots, win little.</center>", // (optional)
        "tradingScale": 3, // 1 - 10 (optional)
        "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
