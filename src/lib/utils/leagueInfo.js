@@ -57,7 +57,7 @@ export const managers = [
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "in your head, rent free", // (optional)
        "bio": "<center><p></p>The last member in, but her first member <i>in.</i> There can be only one.<p></p>Chief Executioner Officer of Dead Guy Rosters Inc. Most notably known for the 2018 campaign which resulted in successfully ending the seasons of Devonta Freeman(1.12), Dalvin Cook(2.1), and Leonard Fournette(3.12) all before a single leaf fell from a tree.",
-       "photo": "/managers/Flannery.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "/managers/Flannery1.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        //"favoriteTeam": "/managers/NFL.png", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
