@@ -79,7 +79,7 @@ export const managers = [
        "name": "John Gambone",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Chalfont, PA", // (optional)
-       "bio": "Incumbent Raj champion + father of 3.",
+       "bio": "<center><p></p>Incumbent Raj champion + father of 3.</center>",
        "photo": "/managers/Gambone.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
