@@ -194,7 +194,7 @@ export const managers = [
        "name": "Dean Kenniff",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Norristown, PA", // (optional)
-       "bio": "<center><p></p>\“The Eternal Sixth Seed:<i>A Norristown Fantasy Saga</i>\"</center><p></p>In the gritty heart of Norristown, PA, where football dreams are born in diners and decided in living rooms, one team lives perpetually on the edge — not of greatness, but of playoff mediocrity.<p></p>They call him The Sixth Seed — every year, without fail, he claws his way into the postseason with just enough fire to burn, but never enough to blaze. It’s not luck, it’s a lifestyle. His team rides the fine line between brilliance and breakdown, chaos and consistency. And it’s all by design.",
+       "bio": "<center><p></p>\“The Eternal Sixth Seed:<i>A Norristown Fantasy Saga</i>\"</center><p></p>In the gritty heart of Norristown, PA, where football dreams are born in diners and decided in living rooms, one team lives perpetually on the edge — not of greatness, but of playoff mediocrity.<p></p>They call him <i>The Sixth Seed</i> — every year, without fail, he claws his way into the postseason with just enough fire to burn, but never enough to blaze. It’s not luck, it’s a lifestyle. His team rides the fine line between brilliance and breakdown, chaos and consistency. And it’s all by design.",
        "photo": "/managers/Kenniff.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -217,7 +217,7 @@ export const managers = [
        "name": "Alexander Perri",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Seattle, WA", // (optional)
-       "bio": "34 y/o he/him, born in Montgomeryville, PA. Spent 12 years in Philadelphia. Moved to Seattle, WA with partner Julia Canino in the summer of 2024. Currently a regional manager of the West coast team at a Pharmaceutical Equipment company. Enjoys cycling, hiking, cooking and hanging out with his dog. Has been to 48/50 states(nbd).",
+       "bio": "<p></p>34 y/o he/him, born in Montgomeryville, PA. Spent 12 years in Philadelphia. Moved to Seattle, WA with partner Julia Canino in the summer of 2024. Currently a regional manager of the West coast team at a Pharmaceutical Equipment company. Enjoys cycling, hiking, cooking and hanging out with his dog. Has been to 48/50 states(nbd).",
        "photo": "/managers/Perri.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -230,7 +230,7 @@ export const managers = [
        "favoritePlayer": 7525, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "\"Respect is not given, it is earned. - Brian Dawkins\" - Alex Perri", // (optional)
+       "philosophy": "<p></p>\"Respect is not given, it is earned. - Brian Dawkins\" - Alex Perri", // (optional)
        "tradingScale": 9, // 1 - 10 (optional)
        "preferredContact": "WhatsApp",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
@@ -240,7 +240,7 @@ export const managers = [
        "name": "Nick Ruggieri",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Philadelphia", // (optional)
-       "bio": "Avid fantasy loser who is still holding on to his disdain of Andrew Luck from 2014. Still searching for a ship",
+       "bio": "<p></p>Avid fantasy loser who is still holding on to his disdain of Andrew Luck from 2014. Still searching for a ship.",
        "photo": "/managers/Ruggieri.jpeg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -253,7 +253,7 @@ export const managers = [
        "favoritePlayer": 4335, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "Don’t trade your best player and avoid being in last.", // (optional)
+       "philosophy": "<p></p>Don’t trade your best player and avoid being in last.", // (optional)
        "tradingScale": 7, // 1 - 10 (optional)
        "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
@@ -263,7 +263,7 @@ export const managers = [
        "name": "Eric \"Dirty\" Stoll",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Lansdale, PA", // (optional)
-       "bio": "Never lost, only ran out of time. 2x Rajvi Bowl Runner-up. Founder and Minister of Propaganda of Rajvi Media Group. Shareholder of the Green Bay Packers, Manchester United and the Atlanta Braves. Enjoys watching Philadelphia sports, golf, and bowling.",
+       "bio": "<p></p>Never lost, only ran out of time. 2x Rajvi Bowl Runner-up. Founder and Minister of Propaganda of Rajvi Media Group. Shareholder of the Green Bay Packers, Manchester United and the Atlanta Braves. Enjoys watching Philadelphia sports, golf, and bowling.",
        "photo": "/managers/Stoll.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -276,7 +276,7 @@ export const managers = [
        "favoritePlayer": 3198, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "Draft guys who will fuck me over the least. Would prefer to run four wide every week but will settle on running the ball if the call sheet and weather plans for it.", // (optional)
+       "philosophy": "<p></p>Draft guys who will fuck me over the least. Would prefer to run four wide every week but will settle on running the ball if the call sheet and weather plans for it.", // (optional)
        "tradingScale": 8, // 1 - 10 (optional)
        "preferredContact": "Email",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
@@ -286,7 +286,7 @@ export const managers = [
        "name": "Steven Tribanas",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Hamhung", // (optional)
-       "bio": "<p></p>2021 Champion. Drafts clean, trades unseen.",
+       "bio": "<center><p></p>2021 Champion.</center><center><p></p>Drafts clean, trades unseen.</center>",
        "photo": "/managers/Tribanas.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -299,7 +299,7 @@ export const managers = [
        "favoritePlayer": 5580, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "<p></p>Fantasy leagues are won in the trenches.", // (optional)
+       "philosophy": "<center><p></p>Fantasy leagues are won in the trenches.</center>", // (optional)
        "tradingScale": 1, // 1 - 10 (optional)
        "preferredContact": "Discord",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
