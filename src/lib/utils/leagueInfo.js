@@ -57,7 +57,7 @@ export const managers = [
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "in your head, rent free", // (optional)
        "bio": "<center><p></p>The last member in, but her first member <i>in.</i> There can be only one.<p></p>Chief Executioner Officer of Dead Guy Rosters Inc. Most notably known for the 2018 campaign which resulted in successfully ending the seasons of Devonta Freeman(1.12), Dalvin Cook(2.1), and Leonard Fournette(3.12) all before a single leaf fell from a tree.",
-       "photo": "/managers/Flannery4.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "/managers/Flannery6.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        //"favoriteTeam": "/managers/NFL.png", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -248,7 +248,7 @@ export const managers = [
        "rival": {
          name: "Brian Flannery", // Can be anything (usually your rival's name)
          link: "1", // manager array number within this array, or null to link back to all managers page
-         image: "/managers/Flannery4.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/Flannery6.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 4335, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
