@@ -102,7 +102,7 @@ export const managers = [
        "name": "Eric Gevirtz",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Mount Pleasant, SC", // (optional)
-       "bio": "bio goes here",
+       "bio": "<p></p>Coach and General Manager for the entirety of the franchise’s history. Four-time Ravi Bowl participant and two-time champion. Longtime rival of the MTHD. Based in the Low Country, where talk lately has been whether this team can finally handle the Northeast weather when the playoffs roll around.<p></p><b>Fact:</b> Veto Victim Survivor",
        "photo": "/managers/Gevirtz.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -113,9 +113,9 @@ export const managers = [
          image: "/managers/Grassie.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 947, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "team philosophy goes here", // (optional)
+       "philosophy": "<p></p>Get your guys — size, speed, and instincts you can’t coach.<p></p>Trust your eyes. Don’t chase tweets and podcast takes.<p></p>Stars win titles. You don’t get there collecting toys.<p></p>Choir boys don’t win championships.<p></p>Injuries happen.<p></p>Buy the dip.<p></p><b>Trade Philosophy:</b><p></p>Help me help you help me. I only do fair deals.", // (optional)
        "tradingScale": 8, // 1 - 10 (optional)
        "preferredContact": "Phone",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
