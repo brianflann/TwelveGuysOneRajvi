@@ -102,7 +102,7 @@ export const managers = [
        "name": "Eric Gevirtz",
        //"tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Mount Pleasant, SC", // (optional)
-       "bio": "<p></p>Coach and General Manager for the entirety of the franchise’s history. Four-time Rajvi Bowl participant and two-time champion. Longtime rival of the MTHD. Based in the Low Country, where talk lately has been whether this team can finally handle the Northeast weather when the playoffs roll around.<center><p></p><b>Fact:</b> Veto Victim Survivor</center>",
+       "bio": "<p></p>Coach and General Manager for the entirety of the franchise’s history. Four-time Rajvi Bowl participant and two-time champion. Longtime rival of the MTHD. Based in the Low Country, where talk lately has been whether this team can finally handle the Northeast weather when the playoffs roll around.<p></p>Veto Victim Survivor",
        "photo": "/managers/Gevirtz.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
