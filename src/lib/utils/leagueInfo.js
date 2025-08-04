@@ -9,7 +9,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 /*   STEP 2   */
 export const homepageText = `
   <p><i>Forged from fire and brimstone, a league that would go on to alter the trajectory of mankind was born...</i></p>
-  <p>Established in 2014, Twelve Guys One Rajvi has become a household name spanning across multiple time zones and generations. From keepers to controversy, the league has continued its commitment
+  <p>Established in 2014, <i>Twelve Guys, One Rajvi</i> has become a household name spanning across multiple time zones and generations. From keepers to controversy, the league has continued its commitment
   to deliver unrivaled drama to its members and their families that HBO executives could simply only dream of.</p>
   <p>As most of the league's members have a penchant for draining their checking accounts to online sportsbooks during the NFL season, the victor's
   cash prize is lucrative indeed. However, the glory of hoisting the sacred Rajvi and relishing in her eternal beauty is a prize that transcends the social construct of monetary value.</p>
