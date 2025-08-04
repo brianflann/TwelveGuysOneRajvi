@@ -11,7 +11,7 @@ export const homepageText = `
   <p><i>Forged from fire and brimstone, a league that would go on to alter the trajectory of mankind was born...</i></p>
   <p>Established in 2014, Twelve Guys One Rajvi has become a household name spanning across multiple timezones and generations. From keepers to controversy, the league has continued its commitment
   to deliver unrivalved drama to its members and their families that HBO executives could simply only dream of.</p>
-  <p>As most of the league's members are part-time degenerate sports bettors, the victor's
+  <p>As most of the league's members have a penchant for draining their checking accounts to online sportsbooks during the NFL season, the victor's
   cash prize is lucrative indeed. However, the glory of hoisting the sacred Rajvi and relishing in her eternal beauty is a prize that transcends the social construct of monetary value.</p>
   <p>   </p>
   <center><p><b><i>Long May She Reign.</b></i></p></center>
