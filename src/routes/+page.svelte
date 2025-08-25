@@ -135,18 +135,27 @@
 		font-style: italic;
 	}
 </style>
-
 <div id="home">
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-            <div class="leagueData">
-              <div class="homeBanner">
-                  {#await nflState}
-                 <div class="center">Retrieving NFL state...</div>
-                 <LinearProgress indeterminate />
-                  {:then nflStateData}
-                 <div class="center">NFL {nflStateData.season} 
+            <!-- Most recent Blog Post (if enabled) -->
+            {#if enableBlog}
+                <HomePost />
+            {/if}
+         </div>
+          <PowerRankings />
+            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
+            {@html homepageText }
+    </div>
+    
+    <div class="leagueData">
+        <div class="homeBanner">
+            {#await nflState}
+                <div class="center">Retrieving NFL state...</div>
+                <LinearProgress indeterminate />
+            {:then nflStateData}
+                <div class="center">NFL {nflStateData.season} 
                     {#if nflStateData.season_type == 'pre'}
                         Preseason
                     {:else if nflStateData.season_type == 'post'}
@@ -159,16 +168,8 @@
                 <div class="center">Something went wrong: {error.message}</div>
             {/await}
         </div>
-            <!-- Most recent Blog Post (if enabled) -->
-            {#if enableBlog}
-                <HomePost />
-            {/if}
-         </div>
-          <PowerRankings />
-            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
-            {@html homepageText }
-    </div>
-<div id="currentChamp">
+
+        <div id="currentChamp">
             {#await waitForAll(podiumsData, leagueTeamManagersData)}
                 <p class="center">Retrieving awards...</p>
                 <LinearProgress indeterminate />
@@ -187,6 +188,7 @@
                 <p class="center">Something went wrong: {error.message}</p>
             {/await}
         </div>
+
         <div class="transactions" >
             <Transactions />
         </div>
