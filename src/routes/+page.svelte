@@ -1,4 +1,4 @@
-<script>
+ <script>
 	import LinearProgress from '@smui/linear-progress';
 	import { getNflState, leagueName, getAwards, getLeagueTeamManagers, homepageText, managers, gotoManager, enableBlog, waitForAll } from '$lib/utils/helper';
 	import { Transactions, PowerRankings, HomePost} from '$lib/components';
@@ -140,13 +140,13 @@
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-<div class="leagueData">
-        <div class="homeBanner">
-            {#await nflState}
-                <div class="center">Retrieving NFL state...</div>
-                <LinearProgress indeterminate />
-            {:then nflStateData}
-                <div class="center">NFL {nflStateData.season} 
+            <div class="leagueData">
+              <div class="homeBanner">
+                  {#await nflState}
+                 <div class="center">Retrieving NFL state...</div>
+                 <LinearProgress indeterminate />
+                  {:then nflStateData}
+                 <div class="center">NFL {nflStateData.season} 
                     {#if nflStateData.season_type == 'pre'}
                         Preseason
                     {:else if nflStateData.season_type == 'post'}
