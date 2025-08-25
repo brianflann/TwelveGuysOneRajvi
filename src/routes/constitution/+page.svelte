@@ -1,6 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let zero;
+    let zero, zeroOne;
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne, threeTwo;
@@ -101,6 +101,7 @@
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>*New for the 2025 Season*</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(zeroOne)}>Voting Topics for 2026</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
@@ -150,7 +151,16 @@
         <li>Trade deadline is <i>Week 11</i> of the regular season</li>
         <li>Head to head tiebreakers are decided by bench point totals</li>
         <li>There will be no keepers this season or the next (2025 & 2026)</li>
-        <li>There will be a small penalty for the weekly lowest point scorer... the penalty is still to be decided.</li>
+        <li>The $10 weekly lowest penalties will be pooled together and awarded to the 2nd place playoff manager</li>
+    </ul>
+    <h2 class="sectionHeading" bind:this={zeroOne}>Voting Topics for 2026</h2>
+    <p> The below topics are up for a vote at the 2026 draft, and will go into effect if a majority vote is received.</p>
+    <ul>
+        <li>Bench size reduced by 1 or 2 spots with the IR spots increased from 1 to 2</li>
+        <li>Changing the tie breaker from bench points to something else</li>
+        <li>Switching to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
+        <li>Crediting total yard points for QBs</li>
+        <li>Drafting on Saturdays going forward</li>
     </ul>
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
     
@@ -332,7 +342,7 @@
         <li>1st place: {dues * 10}$</li>
         <li>Regular Season Winner: {dues * 2}$</li>
     </ul>
-    <p>The lowest point scorer of each week in the regular season is subject to a financial penalty that will be decided at a future date*</p>
+    <p>The lowest point scorer of each week in the regular season is subject to a $10 penalty. This money will be pooled together and awarded to the 2nd place playoff manager.*</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues.</p>
