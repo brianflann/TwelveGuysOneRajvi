@@ -159,8 +159,16 @@
                 <div class="center">Something went wrong: {error.message}</div>
             {/await}
         </div>
-
-        <div id="currentChamp">
+            <!-- Most recent Blog Post (if enabled) -->
+            {#if enableBlog}
+                <HomePost />
+            {/if}
+         </div>
+          <PowerRankings />
+            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
+            {@html homepageText }
+    </div>
+<div id="currentChamp">
             {#await waitForAll(podiumsData, leagueTeamManagersData)}
                 <p class="center">Retrieving awards...</p>
                 <LinearProgress indeterminate />
@@ -179,15 +187,6 @@
                 <p class="center">Something went wrong: {error.message}</p>
             {/await}
         </div>
-            <!-- Most recent Blog Post (if enabled) -->
-            {#if enableBlog}
-                <HomePost />
-            {/if}
-         </div>
-          <PowerRankings />
-            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
-            {@html homepageText }
-    </div>
         <div class="transactions" >
             <Transactions />
         </div>
