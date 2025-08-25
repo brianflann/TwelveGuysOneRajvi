@@ -144,10 +144,10 @@
             {#if enableBlog}
                 <HomePost />
             {/if}
+         </div>
+          <PowerRankings />
             <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
             {@html homepageText }
-        </div>
-        <PowerRankings />
     </div>
     
     <div class="leagueData">
