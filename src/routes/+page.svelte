@@ -140,17 +140,7 @@
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-            <!-- Most recent Blog Post (if enabled) -->
-            {#if enableBlog}
-                <HomePost />
-            {/if}
-         </div>
-          <PowerRankings />
-            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
-            {@html homepageText }
-    </div>
-    
-    <div class="leagueData">
+<div class="leagueData">
         <div class="homeBanner">
             {#await nflState}
                 <div class="center">Retrieving NFL state...</div>
@@ -189,7 +179,15 @@
                 <p class="center">Something went wrong: {error.message}</p>
             {/await}
         </div>
-
+            <!-- Most recent Blog Post (if enabled) -->
+            {#if enableBlog}
+                <HomePost />
+            {/if}
+         </div>
+          <PowerRankings />
+            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
+            {@html homepageText }
+    </div>
         <div class="transactions" >
             <Transactions />
         </div>
