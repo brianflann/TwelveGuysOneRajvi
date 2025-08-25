@@ -159,7 +159,7 @@
         <li>Bench size reduced by 1 or 2 spots with the IR spots increased from 1 to 2</li>
         <li>Changing the tie breaker from bench points to something else</li>
         <li>Switching to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
-        <li>Crediting total yard points for QBs</li>
+        <li>Changing the point calculation of QB's rushing & receiving yards to mirror their passing yards points (from 10yds to 20yds = 1 point) </li>
         <li>Drafting on Saturdays going forward</li>
     </ul>
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
