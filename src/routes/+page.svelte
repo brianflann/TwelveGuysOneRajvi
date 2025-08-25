@@ -21,14 +21,14 @@
     #main {
         flex-grow: 1;
         min-width: 320px;
-        margin: -5 auto;
+        margin: 0 auto;
         padding: 5px 0;
     }
 
     .text {
         padding: 0 30px;
         max-width: 620px;
-        margin: 0 auto;
+        margin: -5 auto;
     }
 
     .leagueData {
