@@ -158,6 +158,13 @@
     <ul>
         <li>Bench size reduced by 1 or 2 spots with the IR spots increased from 1 to 2</li>
         <li>Changing the tie breaker from bench points to something else</li>
+        <ul>
+            <li>Leave the tie as-is (makes the playoff race more interesting)</li>
+            <li>Team with highest scoring player wins</li>
+            <li>Remove highest and lowest point scorer from each team - highest team score wins</li>
+            <li>Head to head DFS lineup for the win</li>
+            <li>Best score of the following week wins</li>
+        </ul>
         <li>Switching to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
         <li>Changing the point calculation of QB's rushing & receiving yards to mirror their passing yards points (from 10yds to 20yds = 1 point) </li>
         <li>Drafting on Saturdays going forward</li>
