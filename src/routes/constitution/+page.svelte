@@ -157,6 +157,7 @@
     <p> The below topics are up for a vote at the 2026 draft, and will go into effect if a majority vote is received.</p>
     <ul>
         <li>Bench size reduced by 1 or 2 spots with the IR spots increased from 1 to 2</li>
+        <li>IR can be used for players who are marked OUT</li>
         <li>Changing the tie breaker from bench points to something else</li>
         <ul>
             <li>Leave the tie as-is (makes the playoff race more interesting)</li>
