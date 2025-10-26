@@ -168,6 +168,7 @@
         </ul>
         <li>Switching to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
         <li>Changing the point calculation of QB's rushing & receiving yards to mirror their passing yards points (from 10yds to 20yds = 1 point) </li>
+        <li>Make Sunday morning drops immediate Free Agents</li>
         <li>Drafting on Saturdays going forward</li>
     </ul>
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
