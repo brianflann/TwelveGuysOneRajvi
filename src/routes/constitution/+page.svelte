@@ -170,7 +170,7 @@
         <li>Changing the point calculation of QB's rushing & receiving yards to mirror their passing yards points (from 10yds to 20yds = 1 point) </li>
         <li>Make Sunday morning drops immediate Free Agents</li>
         <li>Eliminate points for special teams TDs</li>
-        <li>Managers receive a lottery ticket for every completed trade. A winning lottery ticket is chosen at the followong year's draft. The prize is the weekly lowest points collection.</li>
+        <li>Managers receive a lottery ticket for every completed trade. A winning lottery ticket is chosen at the following year's draft. The prize is the weekly lowest points collection.</li>
         <li>If you make a trade, you get additional FAAB money. Amount to be decided at a later date.</li>
         <li>Drafting on Saturdays going forward</li>
     </ul>
