@@ -168,7 +168,7 @@
         </ul>
         <li>Switching to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
         <li>Changing the point calculation of QB's rushing & receiving yards to mirror their passing yards points (from 10yds to 20yds = 1 point) </li>
-        <li>Turn off FA days for Thursday,Sunday and Monday in between draft day and start of season (everyday is waivers until Thursday week 1)</li>
+        <li>Turn off FA days for Thursday, Sunday and Monday in between draft day and start of season (every day is waivers until Thursday week 1)</li>
         <li>Make Sunday, Monday and Thursday drops immediate Free Agents</li>
         <li>*If Sleeper settings allow* FAs are only players that are playing on that specific day (i.e only the Thursday night game players available on Thursdays)</li>
         <li>Thursday FA window opens closer to kickoff rather than all day (i.e Wednesday waiver period is longer or there is a second shorter waiver during the day on Thursday)</li>
