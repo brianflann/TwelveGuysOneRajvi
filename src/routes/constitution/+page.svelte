@@ -158,14 +158,6 @@
     <ul>
         <li>Switch to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
         <li>IR can be used for players who are marked OUT</li>
-        <li>Changing the tie breaker from bench points to something else</li>
-        <ul>
-            <li>Leave the tie as-is (makes the playoff race more interesting)</li>
-            <li>Team with highest scoring player wins</li>
-            <li>Remove highest and lowest point scorer from each team - highest team score wins</li>
-            <li>Head to head DFS lineup for the win</li>
-            <li>Best score of the following week wins</li>
-        </ul>
         <li>Changing the point calculation of QB's rushing & receiving yards to mirror their passing yards points (from 10yds to 20yds = 1 point) </li>
         <li>Turn off FA days for Thursday, Sunday and Monday in between draft day and start of season (every day is waivers until Thursday week 1)</li>
         <li>Make Sunday, Monday and Thursday drops immediate Free Agents</li>
