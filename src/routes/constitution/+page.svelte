@@ -100,8 +100,8 @@
     <h1 class="noUnderscore">TWELVE GUYS, ONE RAJVI BY-LAWS</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>*New for the 2025 Season*</h3>
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(zeroOne)}>Voting Topics for 2026</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>*New for the 2026 Season*</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(zeroOne)}>Voting Topics for 2027</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
@@ -145,18 +145,18 @@
     
     
     <hr />
-    <h2 class="sectionHeading" bind:this={zero}>*New for the 2025 Season*</h2>
-    <p> The below updates have received a majority vote from league members. They have been appended to the By-laws, and are effective starting this season.</p>
+    <h2 class="sectionHeading" bind:this={zero}>*New for the 2026 Season*</h2>
+    <p> The below updates have received a majority vote from league members. They have been appended to the constitution, and are effective starting this season.</p>
     <ul>
-        <li>Trade deadline is <i>Week 11</i> of the regular season</li>
-        <li>Head to head tiebreakers are decided by bench point totals</li>
-        <li>There will be no keepers this season or the next (2025 & 2026)</li>
-        <li>The $10 weekly lowest penalties will be pooled together and awarded to the 2nd place playoff manager</li>
+        <li>Bench size reduced from 7 to 6 spots</li>
+        <li>Regular season tie remains as a tie in the standings</li>
+        <li>Additional last place penality - further vote will be had</li>
+        <li>Continuing with $10 weekly lowest point penalty pooled together and awarded to the 2nd place playoff manager</li>
     </ul>
-    <h2 class="sectionHeading" bind:this={zeroOne}>Voting Topics for 2026</h2>
-    <p> The below topics are up for a vote at the 2026 draft, and will go into effect if a majority vote is received.</p>
+    <h2 class="sectionHeading" bind:this={zeroOne}>Voting Topics for 2027</h2>
+    <p> The below topics are up for a vote at the 2027 draft, and will go into effect if a majority vote is received. Any topics that did not receive a majority from previous years will be left here and re-voted on.</p>
     <ul>
-        <li>Bench size reduced by 1 or 2 spots with the IR spots increased from 1 to 2</li>
+        <li>Switch to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
         <li>IR can be used for players who are marked OUT</li>
         <li>Changing the tie breaker from bench points to something else</li>
         <ul>
@@ -166,7 +166,6 @@
             <li>Head to head DFS lineup for the win</li>
             <li>Best score of the following week wins</li>
         </ul>
-        <li>Switching to .5 PPR (with the option of adding a fractional point for 1st downs)</li>
         <li>Changing the point calculation of QB's rushing & receiving yards to mirror their passing yards points (from 10yds to 20yds = 1 point) </li>
         <li>Turn off FA days for Thursday, Sunday and Monday in between draft day and start of season (every day is waivers until Thursday week 1)</li>
         <li>Make Sunday, Monday and Thursday drops immediate Free Agents</li>
@@ -196,7 +195,7 @@
         <li>FLEX (RB/WR/TE)</li>
     </ul>
     
-    <p>7 Bench</p>
+    <p>6 Bench</p>
 
     <p>1 IR Spot (Player must be labeled as IR or Covid in the Sleeper App)</p>
     <ul>
@@ -315,7 +314,7 @@
 
     <p>The scoring system will never change without a majority league vote.</p>
     <h3 bind:this={threeTwo}>3.2 Head to Head Tiebreaker</h3>
-    <p>In the rare event of an exact tie in a head to head match, the tiebreaker will be decided by bench point total.</p>
+    <p>In the rare event of an exact tie in a regular season head to head match, the result will remain a tie and reflect in the standings.</p>
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
