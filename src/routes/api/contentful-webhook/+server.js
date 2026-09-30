@@ -4,17 +4,13 @@ export async function POST({ request }) {
   try {
     // 1. Parse the incoming JSON body sent by Contentful
     const body = await request.json();
+    
+    // 3. Send email to your email list using your email provider SDK
+  await sendEmailToList({
+    subject: `New Blog Post: ${title}`,
+    body: `A new blog post by ${author} has been published!`,
+    recipients: ['bflannery7089@gmail.com']
+  });
 
-    // (Optional) Validate secret headers or tokens from Contentful
-    // const authHeader = request.headers.get('x-contentful-webhook-secret');
-
-    // 2. Add your custom logic here (e.g., clear cache, revalidate data, update state)
-    console.log('Received Contentful Webhook Event:', body);
-
-    // 3. Respond with a 200 OK status
-    return json({ success: true, message: 'Webhook received' }, { status: 200 });
-  } catch (error) {
-    console.error('Error handling Contentful webhook:', error);
-    return json({ success: false, error: 'Invalid payload' }, { status: 400 });
   }
 }
